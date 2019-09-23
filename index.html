@@ -30,8 +30,8 @@
                     </div> 
                 </div>
                 <div class="row margin">
-                    <div class="col-md-4">
-                        <h1>Edit chart title/subtitle information:</h1>
+                    <div class="col-md-12">
+                        <h4>Edit chart title/subtitle information:</h4>
                     </div>
                     <div class="col-md-4">
                         <label class="text-style" for="title-text">
@@ -47,12 +47,12 @@
                     </div>
                 </div>
                 <div class="row margin">
-                    <div class="col-md-4">
-                        <h1>Filter by year:</h1>
+                    <div class="col-md-12">
+                        <h4>Filter by year:</h4>
                     </div>
                     <div class="col-md-4">
-                        <label class="text-style" for="exampleFormControlSelect1">Select Year:</label>
-                        <select class="form-control" id="exampleFormControlSelect1" v-model="selectedYear" @change="changeYear">
+                        <label class="text-style" for="year-selector">Select Year:</label>
+                        <select class="form-control" id="year-selector" v-model="selectedYear" @change="changeYear">
                             <option>2016</option>
                             <option>2017</option>
                             <option>2018</option>
@@ -85,7 +85,6 @@
             
         </div>
             
-          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
