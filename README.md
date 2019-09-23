@@ -1,7 +1,6 @@
 # resourceitTest
 
 1. Getting Started
-  - Requiriments
 2. Using
 3.Useful links
 
@@ -10,8 +9,8 @@
  - Vue, Highcharts libraries (updated) installed in your project
 
 ## Using
-  -Clone or download the project paste.
-  -On directory "resourceit" open the file index.html.
+  - Clone or download the project paste.
+  - On directory "resourceit" open the file index.html.
   
 ## Useful links
 [Highcharts General Documentation](https://www.highcharts.com/docs)
