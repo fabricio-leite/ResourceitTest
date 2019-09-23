@@ -2,7 +2,7 @@
 
 1. Getting Started
 2. Using
-3 .Useful links
+3. Useful links
 
 ## Getting Started
  ### Requiriments
