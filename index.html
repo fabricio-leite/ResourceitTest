@@ -23,12 +23,16 @@
         <div id="app">
 
             <div class="container">
+
                 <div class="row margin">
                     <div class="col-md-12">
                         <div id="grafic" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                     </div> 
                 </div>
                 <div class="row margin">
+                    <div class="col-md-4">
+                        <h1>Edit chart title/subtitle information:</h1>
+                    </div>
                     <div class="col-md-4">
                         <label class="text-style" for="title-text">
                             Title:
@@ -40,6 +44,11 @@
                             Subtitle:
                         </label>
                         <input id="subtitle-text" class="form-control" type="text" placeholder="Change subtitle" v-model="subTitle" @input="addData">
+                    </div>
+                </div>
+                <div class="row margin">
+                    <div class="col-md-4">
+                        <h1>Filter by year:</h1>
                     </div>
                     <div class="col-md-4">
                         <label class="text-style" for="exampleFormControlSelect1">Select Year:</label>
@@ -71,6 +80,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
             
         </div>
