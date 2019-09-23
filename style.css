@@ -1,0 +1,12 @@
+  body {
+    background-color: aliceblue;
+  }
+  
+  .margin {
+    margin: 45px auto;
+  }
+
+  .text-style {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
